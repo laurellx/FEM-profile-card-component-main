@@ -112,7 +112,7 @@ body .wrapper footer::before {
   display: flex;
   content: "";
   background-color: hsl(227, 10%, 46%);
-  height: 0.2px;
+  height: 0.05px;
   width: 100%;
 }
 
