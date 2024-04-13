@@ -17,7 +17,7 @@ body {
   background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
   background-size: 100%, 130%;
   background-repeat: no-repeat, repeat-x;
-  background-position: top left, bottom;
+  background-position: top left, bottom right;
   background-position-y: -21%, 130%;
 }
 body .wrapper {
@@ -128,11 +128,7 @@ body .wrapper footer::before {
 /* Large devices */
 @media only screen and (min-width: 992px) {
   body {
-    display: flex;
-    height: 100vh;
     background-color: hsl(185, 75%, 39%);
-    align-items: center;
-    justify-content: center;
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-size: 50%, 52%;
     background-repeat: no-repeat;
@@ -141,7 +137,7 @@ body .wrapper footer::before {
     overflow: hidden;
   }
   body .wrapper {
-    height: 45%;
+    height: 60%;
   }
   body .wrapper footer .lists {
     width: 80%;
