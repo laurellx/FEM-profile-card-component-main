@@ -130,14 +130,14 @@ body .wrapper footer::before {
   body {
     background-color: hsl(185, 75%, 39%);
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-size: 50%, 52%;
+    background-size: 50%, 43%;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-position-y: -200%, 430%;
     overflow: hidden;
   }
   body .wrapper {
-    height: 60%;
+    height: 55%;
   }
   body .wrapper footer .lists {
     width: 80%;
