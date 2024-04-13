@@ -12,9 +12,9 @@
 body {
   display: flex;
   height: 100vh;
-  background-color: hsl(185, 75%, 39%);
   align-items: center;
   justify-content: center;
+  background-color: hsl(185, 75%, 39%);
   background-image: url(/images/bg-pattern-top.svg),
     url(/images/bg-pattern-bottom.svg);
   background-size: 100%, 130%;
